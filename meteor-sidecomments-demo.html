@@ -8,6 +8,7 @@
 
 <!-- Nav -->
 <template name="Nav">
+    {{> loginButtons}}
     <h4>Navigation</h4>
     <ul>
         <li><a href="/">Home</a></li>
@@ -18,7 +19,7 @@
 
 <!-- Home -->
 <template name="Home">
-    {{> loginButtons}}
+    {{> Nav}}
     <h1>Home</h1>
     <div id="commentable-area">
         <p>
@@ -49,7 +50,7 @@
 
 <!-- Page 1 -->
 <template name="Page">
-    {{> loginButtons}}
+    {{> Nav}}
     <h1>Some Page</h1>
     <div id="commentable-area">
         <p>
