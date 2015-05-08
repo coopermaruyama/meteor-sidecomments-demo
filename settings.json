@@ -1,7 +1,8 @@
 {
   "public": {
     "sideComments": {
-       "defaultAvatar": "/avatar_default.png"
+       "defaultAvatar": "/avatar_default.png",
+       "customSelector": "p, .custom"
     }
   }
 }
